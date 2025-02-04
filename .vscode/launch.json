@@ -2,11 +2,29 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JdbcpocApplication",
+            "request": "launch",
+            "mainClass": "com.secondapp.jdbcpoc.JdbcpocApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-PocApplication<poc>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "com.firstapp.poc.PocApplication",
             "projectName": "poc",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=61056 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=poc"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-JdbcpocApplication<jdbcpoc>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.secondapp.jdbcpoc.JdbcpocApplication",
+            "projectName": "jdbcpoc",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
