@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WebdemoApplication",
+            "request": "launch",
+            "mainClass": "com.webapp.webdemo.WebdemoApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "JdbcpocApplication",
             "request": "launch",
             "mainClass": "com.secondapp.jdbcpoc.JdbcpocApplication",
@@ -25,6 +32,26 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "com.secondapp.jdbcpoc.JdbcpocApplication",
             "projectName": "jdbcpoc",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WebdemoApplication<webdemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.webapp.webdemo.WebdemoApplication",
+            "projectName": "webdemo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootwebApplication<springbootweb>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springtelusko.springbootweb.SpringbootwebApplication",
+            "projectName": "springbootweb",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
