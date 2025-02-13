@@ -54,6 +54,16 @@
             "projectName": "springbootweb",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-JobportalApplication<jobportal>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.jobs.jobportal.JobportalApplication",
+            "projectName": "jobportal",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
