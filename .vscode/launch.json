@@ -64,6 +64,16 @@
             "projectName": "jobportal",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootrestApplication<springbootrest>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springtelusko.springbootrest.SpringbootrestApplication",
+            "projectName": "springbootrest",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
