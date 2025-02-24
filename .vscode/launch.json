@@ -74,6 +74,16 @@
             "projectName": "springbootrest",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringjpaApplication<springjpa>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springtelusko.springjpa.SpringjpaApplication",
+            "projectName": "springjpa",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
