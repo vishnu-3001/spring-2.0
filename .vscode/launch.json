@@ -84,6 +84,26 @@
             "projectName": "springjpa",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EcommprojectApplication<ecommproject>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ecomm.ecommproject.EcommprojectApplication",
+            "projectName": "ecommproject",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Ecommproject2Application<ecommproject2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.vishnu.ecommproject2.Ecommproject2Application",
+            "projectName": "ecommproject2",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
